@@ -1,15 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <user>
   <fullName>admin</fullName>
+  <description></description>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAAAwLrfJC+q8lM5ypHDaEXqKkIzR6Ym3sDYCaFaBMqC1mP4e+tfw9fLJ9fLGvCsfcTdAURoQH4tFa/vFSlqr+CBKGA==}</apiToken>
+      <apiToken>{AQAAABAAAABwdGbB74tS1hyS2qrkbaZdSF5rMbieqEyVjI4G8lD/Ls4Crgq/3qdciTzwP04CV1O+enZUqaFD+IWhhn8iWyWa7mbDrdFjVrY5Xx0d8GS0y+MwmGUmhptIrgM/98IAUlEmEqJSUiWymfsZoT7sxHvMWblfUDxP6S5syapyovr9YiQ=}</apiToken>
     </jenkins.security.ApiTokenProperty>
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.18">
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
     </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
-    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.21"/>
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.21">
+      <emailAddress></emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1533255910960</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
     <hudson.model.MyViewsProperty>
+      <primaryViewName></primaryViewName>
       <views>
         <hudson.model.AllView>
           <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
@@ -26,17 +36,14 @@
     <hudson.model.PaneStatusProperties>
       <collapsed/>
     </hudson.model.PaneStatusProperties>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$6geAsrXEVOvoalkVr2Bw0.ooA0Ubbk66b7poNcSbzoIRxDlODp5O.</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
+      <authorizedKeys></authorizedKeys>
+    </org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
     <hudson.search.UserSearchProperty>
       <insensitiveSearch>true</insensitiveSearch>
     </hudson.search.UserSearchProperty>
-    <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$luChNqBQh8HTEqzZbDkYzuTnUY984XiczhmKlVs7SrusONcs8mA/S</passwordHash>
-    </hudson.security.HudsonPrivateSecurityRealm_-Details>
-    <jenkins.security.LastGrantedAuthoritiesProperty>
-      <roles>
-        <string>authenticated</string>
-      </roles>
-      <timestamp>1533255910960</timestamp>
-    </jenkins.security.LastGrantedAuthoritiesProperty>
   </properties>
 </user>
